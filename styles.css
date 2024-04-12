@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "ChirpExtendedHeavy";
+    src: url(assets/fonts/ChirpExtendedHeavy.ttf);
+}
+
+@font-face {
+    font-family: "ChirpMedium";
+    src: url(assets/fonts/ChirpMedium.ttf);
+}
+
+@font-face {
+    font-family: "ChirpHeavy";
+    src: url(assets/fonts/ChirpHeavy.ttf);
+}
+
+@font-face {
+    font-family: "ChirpBold";
+    src: url(assets/fonts/ChirpBold.ttf);
+}
+
+@font-face {
+    font-family: "ChirpRegular";
+    src: url(assets/fonts/ChirpRegular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display:flex;
+}
+
+main {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin-top: 52px;
+    padding:20px;
+
+}
+
+#contentLogo{
+    margin: 16px 10px 0px;
+    padding-right:  10px ;
+    align-items: flex-start;
+    border: 2px solid black;
+    width: 500px; 
+    height: auto;
+}
+
+#LogoX img {
+    width: 98%; 
+    height: auto;
+    padding-left: 16px;
+    color: rgba(15, 20, 25, 1.00);
+}
+
+#content{
+    border: 2px solid black;
+    margin: 14px 0px 0px 46px;
+    padding-left: 26px;
+}
+
+#headerContent{
+    padding-bottom: 20px;
+}
+h1{
+    font-family: 'ChirpExtendedHeavy';
+    font-size: 64px;
+    color: rgb(15, 20, 25);
+    text-overflow: unset;
+    letter-spacing: -2px;
+}
+
+#bodyContent{
+    margin: 20px 0px;
+    padding: 10px, 0px;
+}
+
+#titleContent{
+    margin: 10px, 0px;
+    padding: 10px 0px 20px;
+}
+
+#titleContent h2{
+    font-family: "ChirpExtendedHeavy";
+    font-size: 31px;
+    color: rgb(15, 20, 25);
+}
+
+#signUpContent{
+    margin: 10px, 0px;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+
+#whiteButtonGoogle{
+    margin-bottom: 8px;
+    padding: 10px;
+    width: 40%;
+    border: 2px solid #dadce0;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    flex-direction: row;
+}
+#whiteButtonGoogle p{
+    font-family: "ChirpMedium";
+    font-size: 15px;
+}
+
+#whiteButtonGoogle img{
+    width: 18px;
+    height: auto;
+    margin-right: 8px;
+}
+
+#whiteButtonApple{
+    margin-bottom: 8px;
+    padding: 10px;
+    width: 40%;
+    border: 2px solid #dadce0;
+    border-radius: 40px;
+    align-items: center; 
+    justify-content: center; 
+    display: flex;
+    flex-direction: row;
+}
+
+#whiteButtonApple p{
+    font-family: "ChirpBold";
+    font-size: 15px;
+}
+
+#whiteButtonApple img{
+    width: 26px;
+    height: auto;
+    margin-right: 8px;
+}
+
+#signUpOr{
+    width: 45%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#signUpOr p{
+    font-family: "ChirpMedium";
+    font-size: 15px;
+}
+
+#blueButton{
+    margin-bottom: 8px;
+    padding: 10px;
+    width: 40%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 40px;
+    background-color: rgb(29, 155, 240);
+    text-align: center;
+}
+
+#blueButton p{
+    font-family: "ChirpBold";
+    font-size: 15px;
+    color: #fff
+}
+
+#permissions{
+    width: 300px;
+}
+
+#permissions p{
+    font-family: "ChirpRegular";
+    font-size: 11px;
+    color: rgb(83, 100, 113);
+}
+
+a{
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration-line: underline;
+}
