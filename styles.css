@@ -38,7 +38,6 @@ main {
     flex-direction: row;
     margin-top: 52px;
     padding:20px;
-
 }
 
 #contentLogo{
@@ -66,6 +65,7 @@ main {
 #headerContent{
     padding-bottom: 20px;
 }
+
 h1{
     font-family: 'ChirpExtendedHeavy';
     font-size: 64px;
@@ -107,6 +107,11 @@ h1{
     display: flex;
     flex-direction: row;
 }
+
+#whiteButtonGoogle:hover{
+    cursor: pointer;
+}
+
 #whiteButtonGoogle p{
     font-family: "ChirpMedium";
     font-size: 15px;
@@ -128,6 +133,12 @@ h1{
     justify-content: center; 
     display: flex;
     flex-direction: row;
+}
+
+#whiteButtonApple:hover{
+    cursor: pointer;
+    background-color: rgb(230,230,230);
+    transition-duration: 0.2s;
 }
 
 #whiteButtonApple p{
@@ -162,6 +173,10 @@ h1{
     text-align: center;
 }
 
+#blueButton:hover{
+    cursor: pointer;
+}
+
 #blueButton p{
     font-family: "ChirpBold";
     font-size: 15px;
@@ -184,4 +199,7 @@ a{
 }
 a:hover {
     text-decoration-line: underline;
+    cursor: pointer;
+    color: rgb(26, 140, 216);
+    transition-duration: 0.2s;
 }
